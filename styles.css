@@ -52,6 +52,7 @@ li a:focus {
 main {
   width: 100%;
   gap: 5%;
+  padding: 0 5%;
   height: 75vh;
   display: flex;
   flex-direction: row;

@@ -1,4 +1,49 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+  main {
+    margin-top: 70px;
+  }
+  .text_container h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .logo {
+    font-size: 14px;
+  }
+  .nav {
+    gap: 0;
+  }
+  .nav ul {
+    font-size: 14px;
+    gap: 2em;
+  }
+  .main {
+    margin-top: 80px;
+  }
+  .text_container h1 {
+    font-size: 36px;
+  }
+  .text_container p {
+    font-size: 16px;
+  }
+  .read_more {
+    font-size: 14px;
+  }
+  .image_container {
+    height: 350px;
+  }
+  .client_container {
+    margin-top: 69%;
+    margin-left: 30%;
+    width: 60%;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 479px) {
+  .logo {
+    min-width: 120px;
+  }
   .nav {
     position: fixed;
     left: 0;
