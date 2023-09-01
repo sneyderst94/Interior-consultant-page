@@ -7,11 +7,14 @@ body {
   background-color: #181719;
   color: #ffffff;
 }
-.menu__mobile {
+.menu_mobile {
   display: none;
 }
 .menu_mobile:hover {
   cursor: pointer;
+}
+.close_menu {
+  display: none;
 }
 header {
   display: flex;

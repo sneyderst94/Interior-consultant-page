@@ -61,6 +61,17 @@
     left: 100%;
     transition: 0.5s;
   }
+  .close_menu {
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 4%;
+    left: 86%;
+  }
+  .close_menu:hover {
+    cursor: pointer;
+  }
   .nav ul {
     display: flex;
     align-items: center;
@@ -73,23 +84,23 @@
     margin: 0;
     padding: 0;
   }
-  .menu__mobile {
-    z-index: 11;
+  .menu_mobile {
+    z-index: 9;
     display: block;
     border: none;
     background: transparent;
     padding: 1rem;
   }
-  .menu__mobile i {
+  .menu_mobile i {
     color: #fff;
     font-size: 30px;
   }
-  .menu__mobile i {
+  .menu_mobile i {
     color: #fff;
     cursor: pointer;
     transition: 0.5s;
   }
-  .menu__mobile i:hover {
+  .menu_mobile i:hover {
     rotate: 180deg;
     transition: 0.5s;
   }
